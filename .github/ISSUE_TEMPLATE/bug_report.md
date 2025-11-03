@@ -1,38 +1,49 @@
 ---
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
-assignees: ''
+name: 🐛 버그 보고 (Bug Report)
+about: 예상치 못한 동작이나 오류를 신고합니다.
+title: "[BUG] [간결한 설명]: 문제 발생 위치와 핵심 내용"
+labels: bug, needs-triage
+assignees: '' # 비워두면 아무에게도 할당되지 않습니다.
+---
+
+## 🐞 버그 설명 (Description of the Bug)
+
+문제에 대한 명확하고 간결한 설명을 제공해주세요.
+
+## 🔁 재현 단계 (Steps to Reproduce)
+
+버그를 재현하기 위한 단계를 명확하게 작성해 주세요:
+
+1. '...' 으로 이동합니다.
+2. '...' 을 클릭합니다.
+3. '...' 을 스크롤합니다.
+4. 오류가 발생합니다.
+
+## 💡 예상 동작 (Expected Behavior)
+
+이 단계를 수행했을 때 **정확히** 어떤 일이 발생할 것이라고 예상했는지 설명해주세요.
+
+## 💥 실제 동작 (Actual Behavior)
+
+실제로 어떤 일이 발생했는지, 오류 메시지를 포함하여 설명해주세요.
+
+## 🖥️ 환경 (Environment)
+
+문제를 겪은 환경에 대한 정보를 제공해주세요:
+
+* **운영체제 (OS):** [예: macOS Ventura 13.5, Windows 10]
+* **브라우저 (Browser):** [예: Chrome 118, Firefox 115]
+* **프로젝트 버전 (Project Version):** [예: v1.2.3 또는 `main` 브랜치의 최신 커밋 해시]
+* **기타 관련 정보:** (선택 사항)
+
+## 기타 정보 (Additional Context)
+
+스크린샷, 비디오, 관련 로그 파일 등 문제를 이해하는 데 도움이 될 수 있는 모든 정보를 추가해주세요.
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+### ✅ 보고 전 체크리스트
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
-
-**Expected behavior**
-A clear and concise description of what you expected to happen.
-
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
-
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
-
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
-
-**Additional context**
-Add any other context about the problem here.
+* [ ] 기존 이슈에서 중복되는 버그가 있는지 검색해 봤습니다.
+* [ ] 문제를 재현할 수 있는 명확한 단계를 제공했습니다.
+* [ ] 최신 버전의 프로젝트에서 문제가 발생하는지 확인했습니다.
