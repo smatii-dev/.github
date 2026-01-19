@@ -6,13 +6,13 @@ labels: enhancement, feature
 assignees: ''
 ---
 
-## 🚀 기능 요청 배경 (Is your feature request related to a problem?)
+## 🚀 기능 요청 배경
 
 
 
-## 💡 제안하는 기능 (Describe the Solution You'd Like)
+## 💡 제안하는 기능
 
 
 
-## 추가 정보 (Additional Context)
+## 추가 정보
 
